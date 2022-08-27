@@ -1,0 +1,8 @@
+# Node modules - these can be obtained by using npm i
+node_modules
+
+# Environment variables
+.env
+
+# Compiled .js files - these can be obtained using npx tsc
+dest
