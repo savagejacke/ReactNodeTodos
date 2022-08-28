@@ -4,5 +4,5 @@ node_modules
 # Environment variables
 .env
 
-# Compiled .js files - these can be obtained using npx tsc
-dest
+# Any API queries
+*.rest
