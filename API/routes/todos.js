@@ -50,7 +50,6 @@ router.delete("/:id", getTodo, async (req, res) => {
     await res.todo.remove();
     res.json({ message: "Deleted todo" });
   } catch (e) {
-    console.log(res.todo);
     res.status(500).json({ message: e.message });
   }
 });

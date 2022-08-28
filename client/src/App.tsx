@@ -1,7 +1,14 @@
-import React from "react";
+import CreateTodoForm from "./Components/CreateTodoForm";
+import TodosContextProvider from "./Components/TodosContextProvider";
+import TodosList from "./Components/TodosList";
 
 function App() {
-  return <h1>Hello, world!</h1>;
+  return (
+    <TodosContextProvider>
+      <TodosList />
+      <CreateTodoForm />
+    </TodosContextProvider>
+  );
 }
 
 export default App;
